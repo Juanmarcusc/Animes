@@ -58,6 +58,8 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: #6495ED;
+    
 }
 
 .procurados {
@@ -67,7 +69,8 @@ header {
     height: 500px;
     display: flex;
     align-items: center;
-    background-color: #6495ED;
+    border-right: 1px solid #FFF;
+   
     
 }
 
@@ -100,3 +103,10 @@ header {
    cursor:pointer;
 }
 
+.lista-procurados {
+    margin: 150px 200px 0 0;
+    line-height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}

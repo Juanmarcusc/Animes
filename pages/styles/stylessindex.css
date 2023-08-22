@@ -54,7 +54,13 @@ header {
 
 }
 
-.procurados{
+.container-animes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.procurados {
     display: flex;
     flex-direction: column;
     width: 700px;
@@ -62,6 +68,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #6495ED;
+    
 }
 
 .procurados h2 {
@@ -76,12 +83,20 @@ header {
 }
 
 .input-search {
+    width: 50%;
     margin-top: 50px;
     border-radius: 10px;
     border: none;
     outline: none;
     padding: 4px;
+   
 }
 
-
+.btn-search {
+   margin-top: 10px;
+   border-radius: 10px;
+   padding: 4px;
+   border: none;
+   cursor:pointer;
+}
 

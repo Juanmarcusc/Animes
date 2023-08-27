@@ -138,3 +138,57 @@ footer p {
     line-height: 30px;
 }
 
+
+/* anime.html style (start) */
+.container {
+    padding: 48px 0;
+}
+.container__card {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container__card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+.container__card h2 {
+    font-size: 16px;
+    margin: 0;
+    background-color: #000080;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+.container__card p {
+    max-width: 600px;
+    font-size: 18px;
+    margin: 16px;
+}
+.container__card button {
+    border: none;
+    background-color: #000080;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin-top: 4px;
+}
+.container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    grid-gap: 20px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+    .container ul {
+        grid-template-columns: 1fr;
+    }
+}
+/* anime.html style (end) */

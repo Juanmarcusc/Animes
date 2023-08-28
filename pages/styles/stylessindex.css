@@ -198,3 +198,23 @@ footer p {
     }
 }
 /* anime.html style (end) */
+
+/* Styles for the social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+/* end of styles the social icons */
